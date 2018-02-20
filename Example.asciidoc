@@ -102,7 +102,7 @@ AsciiDoc configuration.
 footnote:[A second example footnote.]
 
 A new sub-section
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^
 New Sub-section at level 3.
 
 The Second Section
