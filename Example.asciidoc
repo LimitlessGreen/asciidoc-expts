@@ -3,13 +3,32 @@ The Article Title
 Author's Name <authors@email.address>
 v1.0, 2003-12
 
-
-This is the optional preamble (an untitled section body). Useful for
-writing simple sectionless documents consisting only of a preamble.
+This is the optional preamble (an untitled section body).  Deleted the previous
+line and added a line here to show diffs.
 
 NOTE: The abstract, preface, appendix, bibliography, glossary and
 index section titles are significant ('specialsections').
 
+/////
+Some comments that won't be rendered
+Some comments that won't be rendered
+Some comments that won't be rendered
+/////
+
+// Some comments that won't be rendered
+// Some comments that won't be rendered
+// Some comments that won't be rendered
+// Some comments that won't be rendered
+
+A new line added here. Some admonitions follow.
+
+TIP: Pro tip...
+
+IMPORTANT: Don't forget...
+
+WARNING: Watch out for...
+
+CAUTION: Ensure that...
 
 :numbered!:
 [abstract]
@@ -25,7 +44,7 @@ and footnotes.
 
 The First Section
 -----------------
-Article sections start at level 1 and can be nested up to four levels
+Article sections start at level 1 and can be nested up to IV levels
 deep.
 footnote:[An example footnote.]
 indexterm:[Example index entry]
@@ -52,6 +71,7 @@ Followed by an example table:
 | Option          | Description
 | -a 'USER GROUP' | Add 'USER' to 'GROUP'.
 | -R 'GROUP'      | Disables access to 'GROUP'.
+| -XXX            | Added a Row.
 |==============================================
 
 .An example example
@@ -76,6 +96,9 @@ This is the maximum sub-section depth supported by the distributed
 AsciiDoc configuration.
 footnote:[A second example footnote.]
 
+A new sub-section
+^^^^^^^^^^^^^^^^^^^^
+New Sub-section at level 3.
 
 The Second Section
 ------------------
