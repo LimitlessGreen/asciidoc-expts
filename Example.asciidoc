@@ -27,13 +27,9 @@ WARNING: Watch out for...
 CAUTION: Ensure that...
 
 .A code listing
+[source,cpp]
 -------
-int main(int argc, char *argv[])
-{
-   printf("Hello Wonderful World!\n");
-   printf("Goodbye, cruel world!\n");
-   return 0;
-}
+include::Example_code.cpp[]
 -------
 
 
@@ -43,9 +39,7 @@ Example Abstract
 ----------------
 The optional abstract (one or more paragraphs) goes here.
 
-This document is an AsciiDoc article skeleton containing briefly
-annotated element placeholders plus a couple of example index entries
-and footnotes.
+include::Example_sub.adoc[]
 
 :numbered:
 
