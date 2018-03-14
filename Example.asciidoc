@@ -31,7 +31,8 @@ CAUTION: Ensure that...
 -------
 include::Example_code.cpp[]
 -------
-
+Here is a link to <<Example Abstract>>. Here is an other link to <<abstract>>.
+And one to the <<The First Section,first section>>.
 
 :numbered!:
 [abstract]
